@@ -1,0 +1,113 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>govirtuo.com</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper-->
+			<div id="wrapper">
+
+				<!-- Nav -->
+					<nav id="nav">
+						<a href="#" class="icon solid fa-home"><span>Home</span></a>
+						<a href="#work" class="icon solid fa-folder"><span>Calculate</span></a>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Me -->
+							<article id="home" class="panel intro">
+								<header>
+									<h1>VITRO</h1>
+									<p>New Generation Car Rental</p>
+								</header>
+								<a href="#work" class="jumplink pic">
+									<span class="arrow icon solid fa-chevron-right"><span>Booking</span></span>
+									<div class="parallax"><video autoplay muted loop id="myVideo">
+  									<source src="/home/akshay/Downloads/dress-up-virtuo-master/images/1.mp4" type="video/mp4">
+ 									Your browser does not support HTML5 video.
+									</video></div> 
+								</a>
+							</article>
+
+						<!-- Work -->
+							<article id="work" class="panel">
+								<header>
+									<h2>SELECT A CAR</h2>
+								</header>
+								<p>
+									The Virtuo revolution
+									No more queues, no more paperwork, go straight to your car. Autonomously, geolocate your car, open it and take stock, all thanks to your Virtuo app.
+								</p>
+									<div>
+											<div class="row">
+									<div id="car">
+											<div class="col-12">
+											<input class="js-name" type="text" placeholder="Car name"/>
+											<span class="error"><p id="name_error"></p></span>
+											<p><b>Car Name<b></p>
+											<br>
+									</div>
+											
+
+											<div class="col-6">
+											<input class="js-price-by-day" type="number" placeholder="Price per day"/>
+											<p><b>Price per day<b></p>
+											<br>
+									</div>
+											<div class="col-12">
+											<input class="js-price-by-km" type="number" placeholder="Price per Km"/>
+											<p><b>Price per kilometers<b></p>
+									</div>
+											</br>
+
+									<div id="rental">
+											<div class="col-12">
+											<input class="js-name" type="text" placeholder="Driver Name"/>
+											<p><b>Driver's Name<b></p>
+									</div>
+											</br>
+
+											<div class="col-12">
+											<input class="js-begin" type="date" placeholder="Rental begin date"/>
+											<p><b>Select starting Date<b></p>
+
+									</div>
+											
+											<div class="col-12">
+											<input class="js-end" type="date" placeholder="Rental end date"/>
+											<p><b>Select End Date<b></p>
+									</div>
+											
+											<div class="col-12">
+											<input class="js-distance" type="number" placeholder="kilometers"/>
+											<p><b>Add Distance<b></p>
+							        <input class="js-option" type="checkbox" placeholder="Deductible option"/>
+
+									</div>	
+											<button id="compute">Compute</button>
+											<div id="actors"></div>
+    										<script src="virtuo.js"></script>
+    										<script src="index.js"></script>
+   											
+    								</div>
+									</div>
+							</article>	
+						
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
